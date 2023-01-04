@@ -1,14 +1,12 @@
 import { DarkModeProvider } from './contexts/DarkModeContext'
-import Default from './layouts/Default'
-import Home from './pages/Home'
+
+import Router from './Router'
 
 const App = () => {
   return (
     <div className="App">
       <DarkModeProvider>
-        <Default>
-          <Home />
-        </Default>
+          <Router />
       </DarkModeProvider>
     </div>
   )

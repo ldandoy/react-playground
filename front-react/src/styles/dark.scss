@@ -1,0 +1,17 @@
+.dark {
+    .navbar {
+        background-color: $dark-primary;
+
+        a {
+            color: $dark-secondary;
+        }
+    }
+
+    .container {
+        background-color: $dark-secondary;
+    }
+
+    .title {
+        color: $dark-primary
+    }
+}

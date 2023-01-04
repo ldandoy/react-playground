@@ -1,0 +1,17 @@
+.light {
+    .navbar {
+        background-color: $light-primary;
+
+        a {
+            color: $light-secondary;
+        }
+    }
+
+    .container {
+        background-color: $light-secondary;
+
+        .title {
+            color: $light-primary
+        }
+    }
+}
